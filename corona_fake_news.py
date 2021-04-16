@@ -73,6 +73,6 @@ saved_clf.score(X_test, y_test)
 
 from sklearn.metrics import classification_report, accuracy_score
 y_pred = clf.predict(X_test)
-print("---Test Set Results---")
-print("Accuracy with logreg: {}".format(accuracy_score(y_test, y_pred)))
+print("-------------------------Test Set Results-------------------------\n")
+print("Accuracy with Logistic Regression: {}\n".format(accuracy_score(y_test, y_pred)))
 print(classification_report(y_test, y_pred))
